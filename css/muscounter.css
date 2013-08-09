@@ -1,0 +1,34 @@
+body.degradado {  
+  /* Color alternativo para versiones que no soporten degradados */  
+  background-color:#2B93D2;  
+  
+  /* Safari 4+ y Chrome 1+ */  
+  background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #2B93D2), color-stop(2, #77BCE6));  
+  
+  /* Safari 5.1+ y Chrome 10+ */  
+  background-image:-webkit-linear-gradient(#2B93D2, #77BCE6);  
+  
+  /* Firefox 3.6+ */  
+  background-image:-moz-linear-gradient(left top, #ffffff, #ff0000);  
+  
+  /* Opera 11.10+ */  
+  background-image:-o-linear-gradient(top, #2B93D2, #77BCE6);  
+  
+  /* Internet Explorer 5.5+ */  
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#2B93D2', EndColorStr='#77BCE6');  
+} 
+
+h1 {
+	color: #000d8a;
+	text-align: center;
+	font-family: "Blackadder ITC";
+}
+
+label.marker{
+	font-size: 70px;
+}
+
+button.counter{
+	width: 75px;
+	font-size: 75px;
+}

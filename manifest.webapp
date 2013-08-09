@@ -1,0 +1,15 @@
+{
+	"name": "FOSMusCounter",
+ 	"description": "Juan Carlos Camara - Mus counter for FirefoxOS",
+ 	"launch_path": "/index.html",
+ 	"icons": {
+    	"128": "image/icon.png"
+    },
+ 	
+ 	"developer": {
+    	"name": "Cache Productions",
+    	"url": "http://your-homepage-here.org"
+    },
+ 	
+ 	"default_locate": "en"
+}
